@@ -1,4 +1,4 @@
-# MyButton Arduino Library
+# My_Button Arduino Library
 
 ### Introduction
 
@@ -14,7 +14,7 @@ Three types of gestures can be detected (click, double-click, and long-press). T
 
 ## Installation
 
-It is recommended to install this library from the Arduino Library Manager (search for "MyButton"). 
+It is recommended to install this library from the Arduino Library Manager (search for "**My_Button**"). Make sure you find the **underscored** library name.
 
 However, if the Arduino Library Manager does not find it, or you prefer to install it yourself, download or clone this repository.
 
@@ -74,7 +74,7 @@ However, if the Arduino Library Manager does not find it, or you prefer to insta
 
     ```
 ## Examples
-* Once the library is installed, navigate to: `File`&rarr;`Examples`&rarr;`MyButton` to play with the examples.   
+* Once the library is installed, navigate to: `File`&rarr;`Examples`&rarr;`My_Button` to play with the examples.   
 
     1. `one_button` - An example that handles one button with or without interrupts.
 
