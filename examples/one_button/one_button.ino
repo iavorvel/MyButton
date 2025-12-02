@@ -5,12 +5,14 @@
 
   Connect a push-button between BUTTON_PIN and GND
 
+  Test how the button works with and without interrupts (USE_INTERRUPTS)
+
 */
 
 #include "MyButton.h"
 
 #define USE_INTERRUPTS
-#define BUTTON_PIN 4
+#define BUTTON_PIN 3
 
 MyButton button(BUTTON_PIN);
 

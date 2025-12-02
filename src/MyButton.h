@@ -28,7 +28,7 @@ private:
 public:
   enum Action
   {
-    NOPRESS = 0,
+    NO_PRESS = 0,
     CLICK,
     DOUBLE_CLICK,
     LONG_PRESS
@@ -41,11 +41,13 @@ public:
   void ARDUINO_ISR_ATTR buttonISR();
 
   /**
-   * @brief Construct a new My Button object from _pin
+   * @brief Construct a new My Button object from pin.
+   * No interrupt is attached by default. If you want to
+   * use interrupt, call MyButton::useInterrupt()
    *
-   * @param _pin
+   * @param pin
    */
-  MyButton(int _pin);
+  MyButton(int pin);
 
   /**
    * @brief Attempt to set an interrupt to use with the MyButton object.

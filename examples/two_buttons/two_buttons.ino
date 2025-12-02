@@ -10,7 +10,7 @@
 #include "MyButton.h"
 
 #define USE_INTERRUPTS
-#define BUTTON_PIN1 2
+#define BUTTON_PIN1 3
 #define BUTTON_PIN2 4
 
 MyButton button1(BUTTON_PIN1), button2(BUTTON_PIN2);
